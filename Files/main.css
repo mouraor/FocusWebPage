@@ -1,0 +1,25 @@
+﻿body {
+    background-color: #000000;
+    background-image:url(./Image_001.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+}
+
+/* FOrmatação da seção dic com*/
+div {
+    background-color: grey;
+    width:1000px; height:100px;
+    text-align:right;
+    padding-right:10px;       /* Distanciamento da última letra com a borda-direita*/
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+
+

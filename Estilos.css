@@ -1,0 +1,72 @@
+/*
+-- Estilos CSS - Website da Empresa
+
+https://pt.stackoverflow.com/questions/261970/mostrar-esconder-apenas-com-css
+
+*/
+
+/*
+-- Padrões e Reset
+*/
+
+body, html{
+    margin:0;
+    padding:0;
+}
+.main{
+    max-width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+    background:lightgray;
+}
+.content{
+    float:left;
+    width:100%;
+    margin-right:-210px;
+}
+.content-inner{
+    margin-right:210px;
+}
+.sidebar{
+    background: whitesmoke;
+    float:right;
+    width:200px;
+}
+.menu{
+    max-width:100%;
+    background: black;
+}
+.menu img {
+    max-width:100%;
+    position:relative;
+}
+.menu ul{
+    margin:0; 
+    padding:0;
+}
+.menu ul li{
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    margin:0; 
+    padding:0;
+}
+.menu ul li a{
+    display:block;
+    padding:20px;
+    color:#fff;
+}
+.footer{
+    width:100%;
+    background:black;               /* Cor da caixa de rodapé*/
+    text-align:center;
+    color: white;                   /*cor do texto */
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar, .content-inner, .content{
+        float: none;
+        width: 100%;
+        margin-right:0;
+    }
+}
